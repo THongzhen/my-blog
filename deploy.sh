@@ -16,10 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 部署到 https://<USERNAME>.github.io
-# git push -f git@github.com:<hongzhen99>/<hongzhen99>.github.io.git master
-
 # 部署到 https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:<USERNAME>/<my-REPO>.git master:gh-pages
+ git push -f git@github.com:<hongzhen99>/<my-blog>.git master:gh-pages
 
 cd -
