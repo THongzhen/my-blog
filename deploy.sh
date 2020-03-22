@@ -19,4 +19,4 @@ git commit -m 'deploy'
 # 部署到 https://<USERNAME>.github.io/<REPO>
  git push -f git@github.com:<hongzhen99>/<my-blog>.git master:gh-pages
 
-cd -
+#cd -
